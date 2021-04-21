@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 //@Primary
-@Component
+@Component("ES")
 public class SaludoImpl implements Saludo {
 
 	@Override

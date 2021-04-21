@@ -3,6 +3,7 @@ package pe.edu.tecsup.springbootapp;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -25,6 +26,7 @@ public class SpringBootAppApplication implements CommandLineRunner {
 	@Autowired
 	Calculadora calculadora;  // usando  una clase
 
+	@Qualifier("EN")
 	@Autowired
 	Saludo saludo;			  // usando una interface
 
