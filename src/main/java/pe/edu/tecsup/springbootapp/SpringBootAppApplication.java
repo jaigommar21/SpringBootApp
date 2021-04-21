@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import pe.edu.tecsup.springbootapp.beans.Calculadora;
 import pe.edu.tecsup.springbootapp.beans.Saludo;
+import pe.edu.tecsup.springbootapp.beans.SaludoImpl;
 
 @SpringBootApplication
 public class SpringBootAppApplication implements CommandLineRunner {
